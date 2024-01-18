@@ -25,7 +25,7 @@ selection_sort(int *array, size_t size)
 		if (min == i)
 			continue;
 
-		swap(array, i , min);
+		swap(array, i, min);
 		print_array(array, size);
 	}
 }
