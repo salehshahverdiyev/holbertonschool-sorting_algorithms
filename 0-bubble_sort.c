@@ -1,4 +1,4 @@
-#include <sort.h>
+#include "sort.h"
 
 void
 swap(int *array, size_t first, size_t second)
