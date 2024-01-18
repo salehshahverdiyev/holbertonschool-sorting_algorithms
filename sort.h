@@ -1,5 +1,10 @@
 #ifndef MAIN_H
 #define MAIN_H
+
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
 /**
  * struct listint_s - Doubly linked list node
  * @n: Integer stored in the node
