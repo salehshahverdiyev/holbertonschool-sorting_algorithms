@@ -33,3 +33,22 @@ void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 ```
+
+## Time Complexity Analysis
+
+For each sorting algorithm, the time complexity in big O notation is provided in separate files (0-O, 1-O, 2-O, 3-O). Each file contains the notations for the best case, average case, and worst case scenarios.
+
+## Coding Standards
+
+- The code follows the Betty style, as verified by `betty-style.pl` and `betty-doc.pl`.
+- No global variables are used.
+- No more than 5 functions are allowed per file.
+- The standard library is not used, and functions like `printf`, `puts`, etc., are forbidden.
+
+## Notes
+- Arrays/lists with a size less than 2 do not need to be sorted.
+- The project includes test functions (`print_array` and `print_list`) for displaying the state of arrays and linked lists during sorting.
+
+## Authors
+
+Ziyad Ibrahimov & Saleh Shahverdiyev.
