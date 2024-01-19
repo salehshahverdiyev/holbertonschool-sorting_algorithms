@@ -28,7 +28,7 @@ void swap(listint_t **list, listint_t *first, listint_t *second)
 void insertion_sort_list(listint_t **list)
 {
 	listint_t *current, *temp;
-	
+
 	if (list == NULL || *list == NULL || (*list)->next == NULL)
 		return;
 	current = (*list)->next;
